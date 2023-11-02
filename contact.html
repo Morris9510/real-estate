@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/mystyles.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="flex-container">
+        <h1>RealEstate</h1>
+        <nav>
+          <a href="about.html">About</a>
+          <a href="blog.html">Blog</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <h2>contact</h2>
+      <p>fill the next information</p>
+      <fieldset>
+        <legend>Personal Information</legend>
+        <div>
+          <label>Name:</label>
+          <input type="text" placeholder="Type your name" />
+        </div>
+        <div>
+          <label>Email:</label>
+          <input type="email" placeholder="Type your email" />
+        </div>
+        <div>
+          <label>Phone Number:</label>
+          <input type="tel" placeholder="Type your cellphone" />
+        </div>
+        <div>
+          <label>Message</label>
+          <textarea cols="30" rows="10"></textarea>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Product Information</legend>
+        <div>
+          <label>Type</label>
+          <select name="Select an option">
+            <option value="cars2">---Select an option---</option>
+            <option value="cars2">type1</option>
+          </select>
+        </div>
+        <div>
+          <label>Number</label>
+          <input type="number" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Contact Information</legend>
+        <div class="flex-container">
+          <label>Phone:</label>
+          <input type="radio" />
+          <label>Email:</label>
+          <input type="radio" />
+        </div>
+        <p>
+          If you want to be contacted by phone, please select a day and hour:
+        </p>
+        <div>
+          <label>DATE:</label>
+          <input type="date" />
+        </div>
+        <div>
+          <label>HOUR</label>
+          <input type="time" step="3600" />
+        </div>
+      </fieldset>
+      <button id="button-send">Send</button>
+    </main>
+  </body>
+</html>
